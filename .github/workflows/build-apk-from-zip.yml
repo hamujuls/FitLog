@@ -7,6 +7,9 @@ on:
       - ".github/workflows/build-apk-from-zip.yml"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -14,6 +17,8 @@ jobs:
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Java einrichten
         uses: actions/setup-java@v4
@@ -35,11 +40,12 @@ jobs:
 
           if [ -z "$ZIP_FILE" ]; then
             echo "Keine ZIP-Datei im Hauptordner der Repo gefunden."
-            echo "Bitte lade deine Android-Studio-Projekt-ZIP direkt in die Repo hoch."
             exit 1
           fi
 
+          echo "ZIP_FILE=$ZIP_FILE" >> $GITHUB_ENV
           echo "Gefundene ZIP-Datei: $ZIP_FILE"
+
           unzip -q "$ZIP_FILE" -d extracted
 
           echo "Entpackte Dateien:"
@@ -52,7 +58,6 @@ jobs:
           if [ -z "$PROJECT_DIR" ]; then
             echo "Kein Android-Projekt gefunden."
             echo "Es fehlt settings.gradle oder settings.gradle.kts."
-            echo "Bitte prüfe, ob die ZIP den kompletten Android-Studio-Projektordner enthält."
             exit 1
           fi
 
@@ -78,3 +83,18 @@ jobs:
           name: app-debug-apk
           path: extracted/**/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+
+      - name: ZIP-Datei aus Repository löschen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          rm -f "$ZIP_FILE"
+
+          if git diff --quiet; then
+            echo "Keine ZIP-Datei zum Löschen gefunden oder keine Änderung nötig."
+          else
+            git add -u
+            git commit -m "Remove uploaded project ZIP after APK build [skip ci]"
+            git push
+          fi
