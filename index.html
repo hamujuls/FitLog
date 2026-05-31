@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index,follow">
+<title>FitLog – Datenschutzerklärung / Privacy Policy</title>
+<style>
+  :root{
+    --bg:#0b0f14; --card:#121923; --line:#263244; --text:#f4f7fb;
+    --muted:#a8b3c2; --accent:#3ef2b4; --purple:#9b8cff;
+    --grad:linear-gradient(135deg,#3ef2b4,#9b8cff);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; font-size:17px;
+  }
+  .wrap{max-width:780px; margin:0 auto; padding:28px 22px 80px}
+  header.app{
+    display:flex; align-items:center; gap:14px; padding:8px 0 22px;
+    border-bottom:1px solid var(--line); margin-bottom:26px;
+  }
+  .logo{
+    width:54px; height:54px; border-radius:14px; flex:0 0 auto;
+    background:#0b0f14; border:1px solid var(--line);
+    display:flex; align-items:flex-end; justify-content:center; gap:3px; padding:9px 8px;
+  }
+  .logo i{display:block; width:6px; border-radius:3px 3px 1px 1px; background:var(--grad)}
+  .logo i:nth-child(1){height:30%} .logo i:nth-child(2){height:50%}
+  .logo i:nth-child(3){height:72%} .logo i:nth-child(4){height:96%}
+  .brand h1{margin:0; font-size:22px; letter-spacing:.2px}
+  .brand p{margin:2px 0 0; color:var(--muted); font-size:13px}
+  .langbar{display:flex; gap:8px; margin:0 0 26px}
+  .langbar button{
+    cursor:pointer; border:1px solid var(--line); background:var(--card); color:var(--text);
+    padding:9px 18px; border-radius:999px; font-size:14px; font-weight:600;
+  }
+  .langbar button.active{background:var(--grad); color:#06231a; border-color:transparent}
+  h2{font-size:26px; margin:34px 0 6px; background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; display:inline-block}
+  h3{font-size:18px; margin:26px 0 6px; color:var(--text)}
+  p,li{color:#dbe3ee}
+  a{color:var(--accent)}
+  ul{padding-left:20px; margin:8px 0}
+  li{margin:5px 0}
+  .meta{color:var(--muted); font-size:14px; margin-top:4px}
+  .note{
+    background:var(--card); border:1px solid var(--line); border-left:3px solid var(--purple);
+    border-radius:12px; padding:14px 16px; margin:18px 0; font-size:15px; color:var(--muted);
+  }
+  .card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px; margin:14px 0}
+  footer{margin-top:46px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px}
+  [data-lang]{display:none}
+  body.de [data-lang="de"]{display:block}
+  body.en [data-lang="en"]{display:block}
+  li[data-lang]{display:none}
+  body.de li[data-lang="de"]{display:list-item}
+  body.en li[data-lang="en"]{display:list-item}
+</style>
+</head>
+<body class="de">
+<div class="wrap">
+
+  <header class="app">
+    <div class="logo"><i></i><i></i><i></i><i></i></div>
+    <div class="brand">
+      <h1>FitLog</h1>
+      <p data-lang="de">Datenschutzerklärung</p>
+      <p data-lang="en">Privacy Policy</p>
+    </div>
+  </header>
+
+  <div class="langbar">
+    <button id="btn-de" class="active" onclick="setLang('de')">Deutsch</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ===================== DEUTSCH ===================== -->
+  <section data-lang="de">
+    <h2>Datenschutzerklärung</h2>
+    <p class="meta">App: FitLog · Paket-ID: fit.log · Stand: 31. Mai 2026</p>
+
+    <h3>1. Verantwortlicher</h3>
+    <div class="card">
+      <p style="margin:.2em 0">Julian Hackermüller<br>
+      Wiener Straße 81<br>
+      3002 Purkersdorf<br>
+      Österreich<br>
+      E-Mail: <a href="mailto:j.hackermueller@gmail.com">j.hackermueller@gmail.com</a></p>
+    </div>
+
+    <h3>2. Überblick</h3>
+    <p>FitLog ist eine App zum Erstellen von Trainingsplänen und zum Protokollieren
+    deines Krafttrainings (Gewichte, Wiederholungen, Sätze, Notizen, Verlauf).
+    Der Schutz deiner Daten ist uns wichtig. FitLog arbeitet standardmäßig
+    <b>offline</b> und speichert deine Daten <b>nur lokal</b> auf deinem Gerät.
+    Eine Übertragung in die Cloud findet ausschließlich statt, wenn du die
+    optionale Online-Speicherung selbst aktivierst.</p>
+
+    <h3>3. Lokale Speicherung (Standard)</h3>
+    <p>Folgende Daten werden lokal im Speicher deines Geräts abgelegt und verlassen
+    dieses nicht, solange die Online-Speicherung deaktiviert ist:</p>
+    <ul>
+      <li>dein Trainingsplan (Tage und Übungen)</li>
+      <li>eingetragene Gewichte, Wiederholungen und Sätze</li>
+      <li>dein Trainingsverlauf und abgehakte Übungen</li>
+      <li>deine Notizen sowie App-Einstellungen (z. B. Trainingslevel)</li>
+    </ul>
+    <p>Diese Daten kannst du jederzeit in der App lokal zurücksetzen. Beim
+    Deinstallieren der App werden sie vom Gerät entfernt.</p>
+
+    <h3>4. Optionale Online-Speicherung (Cloud-Sync)</h3>
+    <p>Du kannst in der App freiwillig eine Online-Speicherung aktivieren, um deine
+    Daten zu sichern und auf mehreren bzw. neuen Geräten wiederherzustellen. Wenn
+    du diese Funktion aktivierst, werden folgende Daten an
+    <b>Google Firebase (Cloud Firestore)</b> übertragen und dort gespeichert:</p>
+    <ul>
+      <li>ein anonymer, zufällig erzeugter Benutzer-Identifikator (Benutzer-ID)</li>
+      <li>dein Trainingsplan (Tage und Übungen)</li>
+      <li>deine eingetragenen Gewichte, Wiederholungen und Sätze</li>
+      <li>dein Trainingsverlauf und deine Notizen</li>
+    </ul>
+    <p>Es werden <b>keine personenbezogenen Identifikationsdaten</b> wie echter
+    Name, E-Mail-Adresse oder Telefonnummer abgefragt. Eine Anmeldung mit einem
+    Konto ist nicht erforderlich. Deine Daten sind nur für Personen abrufbar, die
+    deine Benutzer-ID kennen. Behandle deine Benutzer-ID daher wie ein Passwort.</p>
+    <p>Du kannst die Online-Speicherung jederzeit in den Einstellungen wieder
+    deaktivieren und/oder deine lokalen Daten zurücksetzen.</p>
+
+    <h3>5. Auftragsverarbeiter / Google Firebase</h3>
+    <p>Für die optionale Online-Speicherung nutzen wir Cloud Firestore, einen Dienst
+    von Google (Google Ireland Limited bzw. Google LLC). Bei aktivierter
+    Online-Speicherung verarbeitet Google die oben genannten Daten in unserem
+    Auftrag auf seinen Servern. Dabei können technische Daten (z. B. IP-Adresse,
+    Zeitstempel, Geräte- und Verbindungsinformationen) verarbeitet werden, die zur
+    Bereitstellung und Sicherheit des Dienstes erforderlich sind. Eine
+    Verarbeitung auf Servern außerhalb der Europäischen Union kann nicht
+    ausgeschlossen werden. Informationen zum Datenschutz bei Google findest du
+    unter <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>
+    und <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a>.</p>
+
+    <h3>6. App-Berechtigungen</h3>
+    <ul>
+      <li><b>Internet / Netzwerkstatus:</b> nur für die optionale Online-Speicherung (Cloud-Sync).</li>
+      <li><b>Vibration:</b> für die Vibration am Ende des Pausen-Timers.</li>
+      <li><b>Speicher (nur Android 9 und älter):</b> aus technischen Kompatibilitätsgründen; es werden keine zusätzlichen persönlichen Dateien ausgelesen.</li>
+    </ul>
+
+    <h3>7. Keine Werbung, kein Tracking</h3>
+    <p>FitLog enthält <b>keine Werbung</b>, <b>keine Werbe-IDs</b> und <b>keine
+    Analyse- oder Tracking-SDKs zu Werbezwecken</b>. Es werden keine Nutzungsprofile
+    zu Werbe- oder Marketingzwecken erstellt und keine Daten an Werbenetzwerke
+    weitergegeben.</p>
+
+    <h3>8. Rechtsgrundlage</h3>
+    <p>Soweit eine Verarbeitung stattfindet, erfolgt diese auf Grundlage deiner
+    Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du durch das Aktivieren der
+    Online-Speicherung erteilst, sowie zur Erfüllung der von dir gewünschten
+    Funktion (Art. 6 Abs. 1 lit. b DSGVO). Du kannst deine Einwilligung jederzeit
+    mit Wirkung für die Zukunft widerrufen, indem du die Online-Speicherung
+    deaktivierst.</p>
+
+    <h3>9. Speicherdauer</h3>
+    <p>Lokale Daten bleiben gespeichert, bis du sie in der App zurücksetzt oder die
+    App deinstallierst. In der Cloud gespeicherte Daten bleiben erhalten, bis du
+    sie löschst bzw. zurücksetzt. Wende dich bei Fragen zur Löschung an die oben
+    genannte Kontaktadresse.</p>
+
+    <h3>10. Deine Rechte</h3>
+    <p>Du hast nach der DSGVO das Recht auf Auskunft, Berichtigung, Löschung,
+    Einschränkung der Verarbeitung, Datenübertragbarkeit sowie das Recht auf
+    Widerruf deiner Einwilligung und das Recht auf Beschwerde bei einer
+    Aufsichtsbehörde. Zur Wahrnehmung deiner Rechte kannst du uns über die oben
+    genannte E-Mail-Adresse kontaktieren.</p>
+
+    <h3>11. Kinder</h3>
+    <p>FitLog richtet sich nicht gezielt an Kinder und erhebt nicht wissentlich
+    Daten von Kindern.</p>
+
+    <h3>12. Änderungen</h3>
+    <p>Wir können diese Datenschutzerklärung anpassen, wenn sich die App oder
+    rechtliche Vorgaben ändern. Die jeweils aktuelle Fassung ist über diese Seite
+    abrufbar.</p>
+  </section>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section data-lang="en">
+    <h2>Privacy Policy</h2>
+    <p class="meta">App: FitLog · Package ID: fit.log · Last updated: 31 May 2026</p>
+
+    <h3>1. Data Controller</h3>
+    <div class="card">
+      <p style="margin:.2em 0">Julian Hackermüller<br>
+      Wiener Straße 81<br>
+      3002 Purkersdorf<br>
+      Austria<br>
+      Email: <a href="mailto:j.hackermueller@gmail.com">j.hackermueller@gmail.com</a></p>
+    </div>
+
+    <h3>2. Overview</h3>
+    <p>FitLog is an app for creating training plans and logging your strength
+    training (weights, reps, sets, notes, history). Protecting your data matters to
+    us. By default FitLog works <b>offline</b> and stores your data <b>locally on
+    your device only</b>. Data is transferred to the cloud only if you choose to
+    enable the optional online storage yourself.</p>
+
+    <h3>3. Local Storage (default)</h3>
+    <p>The following data is stored locally on your device and does not leave it as
+    long as online storage is disabled:</p>
+    <ul>
+      <li>your training plan (days and exercises)</li>
+      <li>the weights, reps and sets you enter</li>
+      <li>your training history and completed exercises</li>
+      <li>your notes and app settings (e.g. training level)</li>
+    </ul>
+    <p>You can reset this local data at any time within the app. Uninstalling the
+    app removes it from your device.</p>
+
+    <h3>4. Optional Online Storage (Cloud Sync)</h3>
+    <p>You may voluntarily enable online storage in the app to back up your data and
+    restore it on additional or new devices. If you enable this feature, the
+    following data is transmitted to and stored on
+    <b>Google Firebase (Cloud Firestore)</b>:</p>
+    <ul>
+      <li>an anonymous, randomly generated user identifier (user ID)</li>
+      <li>your training plan (days and exercises)</li>
+      <li>the weights, reps and sets you enter</li>
+      <li>your training history and your notes</li>
+    </ul>
+    <p>No <b>personal identifiers</b> such as your real name, email address or phone
+    number are requested. No account sign-up is required. Your data can only be
+    accessed by someone who knows your user ID, so please treat your user ID like a
+    password.</p>
+    <p>You can disable online storage at any time in the settings and/or reset your
+    local data.</p>
+
+    <h3>5. Processor / Google Firebase</h3>
+    <p>For optional online storage we use Cloud Firestore, a service provided by
+    Google (Google Ireland Limited / Google LLC). When online storage is enabled,
+    Google processes the data listed above on our behalf on its servers. In doing
+    so, technical data (e.g. IP address, timestamps, device and connection
+    information) required to provide and secure the service may be processed.
+    Processing on servers outside the European Union cannot be excluded. For
+    information about privacy at Google, see
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>
+    and <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a>.</p>
+
+    <h3>6. App Permissions</h3>
+    <ul>
+      <li><b>Internet / network state:</b> only for the optional online storage (cloud sync).</li>
+      <li><b>Vibration:</b> for the vibration at the end of the rest timer.</li>
+      <li><b>Storage (Android 9 and older only):</b> for technical compatibility reasons; no additional personal files are read.</li>
+    </ul>
+
+    <h3>7. No Ads, No Tracking</h3>
+    <p>FitLog contains <b>no advertising</b>, <b>no advertising IDs</b> and <b>no
+    analytics or tracking SDKs for advertising purposes</b>. No usage profiles are
+    created for advertising or marketing, and no data is shared with ad networks.</p>
+
+    <h3>8. Legal Basis</h3>
+    <p>Where processing takes place, it is based on your consent (Art. 6(1)(a)
+    GDPR), which you give by enabling online storage, and on the performance of the
+    feature you requested (Art. 6(1)(b) GDPR). You may withdraw your consent at any
+    time with effect for the future by disabling online storage.</p>
+
+    <h3>9. Retention</h3>
+    <p>Local data is kept until you reset it in the app or uninstall the app. Data
+    stored in the cloud is kept until you delete or reset it. For deletion requests,
+    please contact us at the address above.</p>
+
+    <h3>10. Your Rights</h3>
+    <p>Under the GDPR you have the right of access, rectification, erasure,
+    restriction of processing, data portability, the right to withdraw consent and
+    the right to lodge a complaint with a supervisory authority. To exercise your
+    rights, contact us at the email address above.</p>
+
+    <h3>11. Children</h3>
+    <p>FitLog is not specifically directed at children and does not knowingly
+    collect data from children.</p>
+
+    <h3>12. Changes</h3>
+    <p>We may update this privacy policy when the app or legal requirements change.
+    The current version is always available on this page.</p>
+  </section>
+
+  <footer>
+    <span data-lang="de">© 2026 FitLog · Diese Seite dient als Datenschutzerklärung für die FitLog-App im Google Play Store.</span>
+    <span data-lang="en">© 2026 FitLog · This page serves as the privacy policy for the FitLog app on the Google Play Store.</span>
+  </footer>
+
+</div>
+
+<script>
+  function setLang(l){
+    document.body.className = l;
+    document.documentElement.lang = l;
+    document.getElementById('btn-de').classList.toggle('active', l==='de');
+    document.getElementById('btn-en').classList.toggle('active', l==='en');
+    try{ location.hash = l; }catch(e){}
+  }
+  if(location.hash.replace('#','')==='en'){ setLang('en'); }
+</script>
+</body>
+</html>
