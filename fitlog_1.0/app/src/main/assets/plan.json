@@ -1,0 +1,658 @@
+[
+  {
+    "sheet": "Mo Push A",
+    "title": "Montag – Push A",
+    "subtitle": "Fokus: Brust + seitliche Schulter + Trizeps  |  Hinweis: Optional: lockerer Zone-2-Lauf 35–45 min, ideal zeitlich getrennt vom Krafttraining.",
+    "meta": "Kraft-Sätze: 17",
+    "exercises": [
+      {
+        "nr": "1",
+        "uebung": "Schrägbankdrücken Kurzhantel oder Smith",
+        "gewicht": "KH: 32,5–37,5 kg je Hantel / Smith: 70–85 kg",
+        "wdh": "6–10",
+        "saetze": "3",
+        "pause": "2–3 min",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Saubere Dehnung, kontrollierte Exzentrik; Gewicht erhöhen, sobald oberer Bereich sauber erreicht.",
+        "fokus": "Obere Brust, vordere Schulter, Trizeps"
+      },
+      {
+        "nr": "2",
+        "uebung": "Flache Brustpresse oder flaches Kurzhanteldrücken",
+        "gewicht": "Presse: 75–95 kg / KH: 35–40 kg je Hantel",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "2 min",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Stabil bleiben, volle ROM, Schulterblätter hinten/unten.",
+        "fokus": "Brust gesamt"
+      },
+      {
+        "nr": "3",
+        "uebung": "Kabel-Flys von unten nach oben",
+        "gewicht": "7,5–12,5 kg je Seite",
+        "wdh": "12–20",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Nicht zu schwer, Fokus auf Dehnung und Kontraktion.",
+        "fokus": "Obere Brust, Stretch"
+      },
+      {
+        "nr": "4",
+        "uebung": "Kabel-Seitheben einarmig",
+        "gewicht": "5–8 kg",
+        "wdh": "12–25",
+        "saetze": "4",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Ja",
+        "hinweis": "Haupt-Optik-Fokus: sauber, konstant Spannung, letzter Satz darf nah ans Limit.",
+        "fokus": "Seitliche Schulter"
+      },
+      {
+        "nr": "5",
+        "uebung": "Trizeps Overhead Cable Extension",
+        "gewicht": "25–35 kg",
+        "wdh": "10–15",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Ellbogen stabil, volle Dehnung über Kopf.",
+        "fokus": "Langer Trizepskopf"
+      },
+      {
+        "nr": "6",
+        "uebung": "Trizeps Rope Pushdown",
+        "gewicht": "30–40 kg",
+        "wdh": "12–20",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Nein",
+        "hinweis": "Saubere Endkontraktion, nicht mit Körpergewicht drücken.",
+        "fokus": "Trizeps lateral/medial"
+      },
+      {
+        "nr": "Cardio",
+        "uebung": "Optional lockerer Lauf",
+        "gewicht": "kein Gewicht",
+        "wdh": "35–45 min Zone 2",
+        "saetze": "",
+        "pause": "-",
+        "rir": "locker",
+        "warmup": "Ja",
+        "hinweis": "Nur locker, kein hartes Tempo; soll Muskelaufbau nicht stören.",
+        "fokus": "Ausdauer erhalten"
+      }
+    ]
+  },
+  {
+    "sheet": "Di Pull A + Bauch",
+    "title": "Dienstag – Pull A + Bauch",
+    "subtitle": "Fokus: Rückenbreite + Rückenmitte + Bizeps + Abs  |  Hinweis: Bauch schwer, aber sauber trainieren; kein Schwung bei Leg Raises.",
+    "meta": "Kraft-Sätze: 23",
+    "exercises": [
+      {
+        "nr": "1",
+        "uebung": "Klimmzüge neutral oder Latzug neutral",
+        "gewicht": "BW 6–10 / Latzug: 70–85 kg",
+        "wdh": "6–10",
+        "saetze": "4",
+        "pause": "2–3 min",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Brust Richtung Griff, volle Streckung ohne Schulterstress.",
+        "fokus": "Lats, Rückenbreite"
+      },
+      {
+        "nr": "2",
+        "uebung": "Brustgestützte Row-Maschine",
+        "gewicht": "60–80 kg",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "2 min",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Brust bleibt auf Polster, kein Schwung.",
+        "fokus": "Rückenmitte, Lat, Rhomboiden"
+      },
+      {
+        "nr": "3",
+        "uebung": "Einarmiger Kabel-Latzug",
+        "gewicht": "25–35 kg je Seite",
+        "wdh": "10–15",
+        "saetze": "2",
+        "pause": "90 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Ellbogen Richtung Hüfte ziehen, Seite gut spüren.",
+        "fokus": "Lat-Fokus einseitig"
+      },
+      {
+        "nr": "4",
+        "uebung": "Reverse Pec Deck",
+        "gewicht": "45–60 kg",
+        "wdh": "12–20",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Ja",
+        "hinweis": "Kontrolliert, keine Trapez-Dominanz.",
+        "fokus": "Hintere Schulter, oberer Rücken"
+      },
+      {
+        "nr": "5",
+        "uebung": "Incline Dumbbell Curls",
+        "gewicht": "12,5–17,5 kg je Hantel",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Arme hinter Körper, volle Dehnung.",
+        "fokus": "Bizeps langer Kopf"
+      },
+      {
+        "nr": "6",
+        "uebung": "Hammer Curls",
+        "gewicht": "17,5–22,5 kg je Hantel",
+        "wdh": "10–15",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Neutraler Griff, kontrolliert.",
+        "fokus": "Brachialis, Unterarm, Bizepsdicke"
+      },
+      {
+        "nr": "7",
+        "uebung": "Hanging Leg Raises oder Knee Raises",
+        "gewicht": "BW",
+        "wdh": "8–15",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Becken aktiv einrollen, nicht nur Beine schwingen.",
+        "fokus": "Unterer Bauch, Hüftbeuger kontrolliert"
+      },
+      {
+        "nr": "8",
+        "uebung": "Kabel-Crunches schwer",
+        "gewicht": "45–65 kg",
+        "wdh": "10–15",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Rippen Richtung Becken, langsam zurück.",
+        "fokus": "Gerader Bauch"
+      }
+    ]
+  },
+  {
+    "sheet": "Mi Beine + Schwimmen",
+    "title": "Mittwoch – Beine funktional + Schwimmen",
+    "subtitle": "Fokus: Laufleistung, Stabilität, Verletzungsprävention  |  Hinweis: Beine nicht komplett zerstören; Ziel ist Unterstützung fürs Laufen, nicht Beinmasse maximal.",
+    "meta": "Kraft-Sätze: 15",
+    "exercises": [
+      {
+        "nr": "1",
+        "uebung": "Front Squat, Hack Squat oder Beinpresse",
+        "gewicht": "Front Squat: 70–90 kg / Hack: 100–140 kg / Beinpresse: 180–240 kg",
+        "wdh": "5–8",
+        "saetze": "3",
+        "pause": "2–3 min",
+        "rir": "2",
+        "warmup": "Ja",
+        "hinweis": "Schwer, aber sauber; keine unnötige Erschöpfung.",
+        "fokus": "Quadrizeps, Knie-Stabilität"
+      },
+      {
+        "nr": "2",
+        "uebung": "Rumänisches Kreuzheben",
+        "gewicht": "90–120 kg",
+        "wdh": "6–10",
+        "saetze": "3",
+        "pause": "2–3 min",
+        "rir": "2",
+        "warmup": "Ja",
+        "hinweis": "Hüfte nach hinten, Rücken neutral, Dehnung kontrollieren.",
+        "fokus": "Hamstrings, Glutes, hintere Kette"
+      },
+      {
+        "nr": "3",
+        "uebung": "Bulgarian Split Squats",
+        "gewicht": "20–30 kg je Hantel",
+        "wdh": "8–12 je Seite",
+        "saetze": "2",
+        "pause": "90–120 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Laufspezifisch wertvoll; sauberer Knieverlauf.",
+        "fokus": "Einbeinige Stabilität, Glutes, Quads"
+      },
+      {
+        "nr": "4",
+        "uebung": "Wadenheben stehend oder sitzend",
+        "gewicht": "70–100 kg",
+        "wdh": "8–15",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Volle Dehnung unten, kurze Pause oben.",
+        "fokus": "Waden, Achillessehne"
+      },
+      {
+        "nr": "5",
+        "uebung": "Tibialis Raises",
+        "gewicht": "10–20 kg",
+        "wdh": "15–25",
+        "saetze": "2",
+        "pause": "60 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Langsam und kontrolliert, kein Reißen.",
+        "fokus": "Schienbeinmuskel, Laufrobustheit"
+      },
+      {
+        "nr": "6",
+        "uebung": "Hip Abduction oder Copenhagen Plank",
+        "gewicht": "Hip Abduction: 45–70 kg / Copenhagen: BW",
+        "wdh": "12–20 / 20–40 s",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Wichtig für Laufstabilität und Beckenposition.",
+        "fokus": "Hüftstabilität, Adduktoren/Abduktoren"
+      },
+      {
+        "nr": "Swim",
+        "uebung": "Schwimmen locker/Technik",
+        "gewicht": "kein Gewicht",
+        "wdh": "45–60 min",
+        "saetze": "",
+        "pause": "-",
+        "rir": "locker",
+        "warmup": "Ja",
+        "hinweis": "Kein hartes Oberkörper-Workout; Fokus Technik und Atmung.",
+        "fokus": "Ausdauer, Technik, aktive Regeneration"
+      }
+    ]
+  },
+  {
+    "sheet": "Do Schulter Arme",
+    "title": "Donnerstag – Schulter/Arme Spezial",
+    "subtitle": "Fokus: Seitliche Schulter + Arme + Oberkörper-Optik  |  Hinweis: Das ist der Optik-Tag: seitliche Schulter priorisieren, trotzdem Gelenke sauber halten.",
+    "meta": "Kraft-Sätze: 21",
+    "exercises": [
+      {
+        "nr": "1",
+        "uebung": "Schulterpresse Maschine oder Kurzhantel",
+        "gewicht": "Maschine: 50–70 kg / KH: 24–30 kg je Hantel",
+        "wdh": "6–10",
+        "saetze": "2",
+        "pause": "2 min",
+        "rir": "2",
+        "warmup": "Ja",
+        "hinweis": "Nur moderates Volumen, damit Push B nicht leidet.",
+        "fokus": "Schulter gesamt, Trizeps"
+      },
+      {
+        "nr": "2",
+        "uebung": "Kabel-Seitheben hinter dem Körper",
+        "gewicht": "5–8 kg",
+        "wdh": "12–20",
+        "saetze": "4",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Ja",
+        "hinweis": "Konstante Spannung, nicht mit Schwung.",
+        "fokus": "Seitliche Schulter, gedehnte Position"
+      },
+      {
+        "nr": "3",
+        "uebung": "Machine Lateral Raise",
+        "gewicht": "35–55 kg",
+        "wdh": "15–25",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Nein",
+        "hinweis": "Sauber bis nahe ans Limit, besonders für Breite.",
+        "fokus": "Seitliche Schulter, Pump"
+      },
+      {
+        "nr": "4",
+        "uebung": "Rear Delt Cable Fly",
+        "gewicht": "5–10 kg je Seite",
+        "wdh": "15–25",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Leicht bis moderat, Schulterblätter nicht übermäßig zusammenziehen.",
+        "fokus": "Hintere Schulter"
+      },
+      {
+        "nr": "5",
+        "uebung": "SZ-Curls oder Preacher Curls",
+        "gewicht": "SZ: 30–40 kg / Preacher: 30–45 kg",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Kontrolliert, voller Bewegungsweg.",
+        "fokus": "Bizeps"
+      },
+      {
+        "nr": "6",
+        "uebung": "Cable Curls",
+        "gewicht": "25–35 kg",
+        "wdh": "12–20",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Nein",
+        "hinweis": "Gleichmäßige Spannung.",
+        "fokus": "Bizeps Peak/Pump"
+      },
+      {
+        "nr": "7",
+        "uebung": "Stirndrücken oder Overhead Trizeps",
+        "gewicht": "SZ: 30–40 kg / Kabel: 30–40 kg",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Ellbogen stabil, Schulter angenehm halten.",
+        "fokus": "Trizeps, langer Kopf"
+      },
+      {
+        "nr": "8",
+        "uebung": "Einarmiger Trizeps Pushdown",
+        "gewicht": "10–17,5 kg",
+        "wdh": "12–20",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Nein",
+        "hinweis": "Saubere Endstreckung, keine Schulterbewegung.",
+        "fokus": "Trizeps Isolation"
+      }
+    ]
+  },
+  {
+    "sheet": "Fr Push B + Bauch",
+    "title": "Freitag – Push B + Bauch",
+    "subtitle": "Fokus: Brust + Trizeps + Abs  |  Hinweis: Zweiter Brustreiz der Woche, danach Bauch schwer und kontrolliert.",
+    "meta": "Kraft-Sätze: 21",
+    "exercises": [
+      {
+        "nr": "1",
+        "uebung": "Flaches Bankdrücken oder Kurzhanteldrücken",
+        "gewicht": "LH: 80–100 kg / KH: 35–42,5 kg je Hantel",
+        "wdh": "5–8",
+        "saetze": "3",
+        "pause": "2–3 min",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Saubere Technik; nicht jedes Mal bis ans absolute Limit.",
+        "fokus": "Brust gesamt, Kraftbasis"
+      },
+      {
+        "nr": "2",
+        "uebung": "Schrägbank Smith oder Maschine",
+        "gewicht": "Smith: 70–85 kg / Maschine: 65–85 kg",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "2 min",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Stabiler Winkel, Brust oben fokussieren.",
+        "fokus": "Obere Brust"
+      },
+      {
+        "nr": "3",
+        "uebung": "Dips vorgelehnt oder Brustpresse",
+        "gewicht": "BW + 0–15 kg / Brustpresse: 80–100 kg",
+        "wdh": "8–12",
+        "saetze": "2",
+        "pause": "2 min",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Nur wenn Schultern angenehm; sonst Brustpresse.",
+        "fokus": "Brust, Trizeps"
+      },
+      {
+        "nr": "4",
+        "uebung": "Pec Deck",
+        "gewicht": "55–75 kg",
+        "wdh": "12–20",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Nein",
+        "hinweis": "Dehnung kontrolliert, Kontraktion sauber halten.",
+        "fokus": "Brust Isolation"
+      },
+      {
+        "nr": "5",
+        "uebung": "Trizeps Dip-Maschine oder enger Pushdown",
+        "gewicht": "Dip-Maschine: 70–95 kg / Pushdown: 35–45 kg",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Schwer, aber ohne Schulterstress.",
+        "fokus": "Trizeps"
+      },
+      {
+        "nr": "6",
+        "uebung": "Kabel-Crunches schwer",
+        "gewicht": "45–65 kg",
+        "wdh": "10–15",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Progressiv steigern wie normale Kraftübung.",
+        "fokus": "Gerader Bauch"
+      },
+      {
+        "nr": "7",
+        "uebung": "Ab Wheel oder Maschinen-Crunch",
+        "gewicht": "Ab Wheel: BW / Maschine: 45–65 kg",
+        "wdh": "8–15",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Nur so weit, wie du Spannung halten kannst.",
+        "fokus": "Bauch, Anti-Extension"
+      },
+      {
+        "nr": "8",
+        "uebung": "Pallof Press oder Side Plank",
+        "gewicht": "Pallof: 10–17,5 kg / Side Plank: BW",
+        "wdh": "12–15 / 30–45 s",
+        "saetze": "2",
+        "pause": "60 s",
+        "rir": "sauber",
+        "warmup": "Nein",
+        "hinweis": "Kontrolle vor Gewicht.",
+        "fokus": "Seitlicher Bauch, Anti-Rotation"
+      }
+    ]
+  },
+  {
+    "sheet": "Sa Pull B + Lauf",
+    "title": "Samstag – Pull B + Lauf",
+    "subtitle": "Fokus: Rücken + Nacken + Bizeps + seitliche Schulter  |  Hinweis: Zweiter Lauf der Woche. Für Ausdauererhalt lieber locker; Intervalle nur, wenn Regeneration passt.",
+    "meta": "Kraft-Sätze: 22",
+    "exercises": [
+      {
+        "nr": "1",
+        "uebung": "Klimmzüge breit oder Latzug breit",
+        "gewicht": "BW / Latzug: 65–80 kg",
+        "wdh": "6–10",
+        "saetze": "3",
+        "pause": "2–3 min",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Breit und kontrolliert, volle Streckung.",
+        "fokus": "Lats, Rückenbreite"
+      },
+      {
+        "nr": "2",
+        "uebung": "T-Bar Row oder Langhantelrudern brustgestützt",
+        "gewicht": "T-Bar: 60–85 kg / LH brustgestützt: 70–90 kg",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "2 min",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Brustgestützt bevorzugt, falls unterer Rücken müde ist.",
+        "fokus": "Rückenmitte, Lat, Dichte"
+      },
+      {
+        "nr": "3",
+        "uebung": "Sitzendes Kabelrudern",
+        "gewicht": "65–85 kg",
+        "wdh": "10–15",
+        "saetze": "2",
+        "pause": "90 s",
+        "rir": "1–2",
+        "warmup": "Nein",
+        "hinweis": "Ellbogen kontrolliert nach hinten.",
+        "fokus": "Rückenmitte, Lat"
+      },
+      {
+        "nr": "4",
+        "uebung": "Straight Arm Pulldown",
+        "gewicht": "25–35 kg",
+        "wdh": "12–20",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Arme fast gestreckt, Lat aktiv.",
+        "fokus": "Lat Isolation"
+      },
+      {
+        "nr": "5",
+        "uebung": "Reverse Pec Deck oder Face Pulls",
+        "gewicht": "Reverse: 45–60 kg / Face Pull: 25–35 kg",
+        "wdh": "12–20",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Kontrolliert, Schulterblattposition sauber.",
+        "fokus": "Hintere Schulter, oberer Rücken"
+      },
+      {
+        "nr": "6",
+        "uebung": "Shrugs",
+        "gewicht": "KH: 35–45 kg je Hantel / LH: 100–140 kg",
+        "wdh": "10–15",
+        "saetze": "2",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Oben kurz halten, nicht kreisen.",
+        "fokus": "Nacken/Trapez"
+      },
+      {
+        "nr": "7",
+        "uebung": "Bayesian Cable Curls oder Scott Curls",
+        "gewicht": "Bayesian: 7,5–12,5 kg je Seite / Scott: 30–40 kg",
+        "wdh": "8–12",
+        "saetze": "3",
+        "pause": "60–90 s",
+        "rir": "1–2",
+        "warmup": "Ja",
+        "hinweis": "Vollständiger Bewegungsweg.",
+        "fokus": "Bizeps"
+      },
+      {
+        "nr": "8",
+        "uebung": "Kabel-Seitheben leicht/Pump",
+        "gewicht": "4–7 kg",
+        "wdh": "15–25",
+        "saetze": "4",
+        "pause": "60–90 s",
+        "rir": "0–2",
+        "warmup": "Ja",
+        "hinweis": "Leichter Pumpreiz, keine Gelenkbelastung erzwingen.",
+        "fokus": "Seitliche Schulter"
+      },
+      {
+        "nr": "Cardio",
+        "uebung": "Lauf locker oder kurze Intervalle",
+        "gewicht": "kein Gewicht",
+        "wdh": "40–50 min Zone 2 oder 10 min locker + 4–6×2 min zügig",
+        "saetze": "",
+        "pause": "-",
+        "rir": "locker/moderat",
+        "warmup": "Ja",
+        "hinweis": "Zone 2 bevorzugt; Intervalle nur bei guter Regeneration.",
+        "fokus": "Ausdauer erhalten"
+      }
+    ]
+  },
+  {
+    "sheet": "So Restday",
+    "title": "Sonntag – Restday",
+    "subtitle": "Fokus: Regeneration  |  Hinweis: Kein Pflichttraining. Ziel: frisch in die nächste Woche starten.",
+    "meta": "Kraft-Sätze: 0",
+    "exercises": [
+      {
+        "nr": "Optional",
+        "uebung": "Spaziergang",
+        "gewicht": "kein Gewicht",
+        "wdh": "20–45 min",
+        "saetze": "",
+        "pause": "-",
+        "rir": "sehr locker",
+        "warmup": "Nein",
+        "hinweis": "Nur wenn es gut tut, kein Leistungsziel.",
+        "fokus": "Aktive Regeneration"
+      },
+      {
+        "nr": "Optional",
+        "uebung": "Mobility leicht",
+        "gewicht": "kein Gewicht",
+        "wdh": "10–20 min",
+        "saetze": "",
+        "pause": "-",
+        "rir": "locker",
+        "warmup": "Nein",
+        "hinweis": "Keine harten Dehnreize, nur Beweglichkeit erhalten.",
+        "fokus": "Schulter, Hüfte, Rücken"
+      },
+      {
+        "nr": "Recovery",
+        "uebung": "Schlaf, Essen, Vorbereitung",
+        "gewicht": "kein Gewicht",
+        "wdh": "ganzer Tag",
+        "saetze": "",
+        "pause": "-",
+        "rir": "-",
+        "warmup": "Nein",
+        "hinweis": "Protein, Kohlenhydrate und ausreichend Schlaf priorisieren.",
+        "fokus": "Muskelaufbau unterstützen"
+      }
+    ]
+  }
+]
